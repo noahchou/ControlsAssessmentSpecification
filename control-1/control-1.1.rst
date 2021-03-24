@@ -1,7 +1,7 @@
-1.1: Establish and Maintain Detailed Enterprise Asset Inventory
+1.1: 建立和维护详细的企业资产清单
 =====================================
 
-Establish and maintain an accurate, detailed, and up-to-date inventory of all enterprise assets with the potential to store or process data, to include: end-user devices (including portable and mobile), network devices, non-computing/IoT devices, and servers. Ensure the inventory records the network address (if static), hardware address, machine name, data asset owner, department for each asset, and whether the asset has been approved to connect to the network. For mobile end-user devices, MDM type tools can support this process, where appropriate. This inventory includes assets connected to the infrastructure physically, virtually, remotely, and those within cloud environments. Additionally, it includes assets that are regularly connected to the enterprise’s network infrastructure, even if they are not under control of the enterprise. Review and update the inventory of all enterprise assets bi-annually, or more frequently.
+建立和维持一个准确、详细和最新的所有企业资产清单，其中包括：终端用户设备(包括便携式和移动式)、网络设备、非计算/物联网设备和服务器。确保库存记录了网络地址（如果是静态的）、硬件地址、机器名称、数据资产所有者、每个资产的部门，以及该资产是否已被批准连接到网络。对于移动终端用户设备，MDM类工具可以酌情支持这一过程。该清单包括物理、虚拟、远程连接到基础设施的资产，以及云环境中的资产。此外，它还包括定期连接到企业网络基础设施的资产，即使它们不在企业的控制之下。每两年或更频繁地审查和更新所有企业资产的库存。
 
 .. list-table::
 	:header-rows: 1
