@@ -6,22 +6,22 @@
 .. list-table::
 	:header-rows: 1
 
-	* - Asset Type
-	  - Security Function
-	  - Implementation Groups
-	* - Devices
-	  - Identify
+	* - 資產類型
+	  - 安全职能
+	  - 执行小组
+	* - 设备
+	  - 识别
 	  - 1, 2, 3
 
-Dependencies
+依赖性
 ------------
 * None
 
-Inputs
+输入
 -----------
-#. :code:`GV1`: Detailed Enterprise Asset Inventory - The enterprise's list of current approved inventory to include all assests as outlined in the safeguard. This list is a mix of manual and tool-generated endpoints that includes information such as authorized, non-authorized, IP address, device type and any other information as defined by the enterprise.
-#. Aggregate Enterprise Asset Inventory - The enterprise's list of all devices detected, manually or through automated scans, since the last update to :code:`GV1`. 
-#. Date of last update to the Detailed Enterprise Asset Inventory
+#. :code:`GV1`: 详细的企业资产清单--企业当前核准的清单，包括保障措施中列出的所有资产。该清单是人工和工具生成的端点的组合，包括授权、非授权、IP 地址、设备类型等信息以及企业定义的任何其他信息。
+#. 企业资产总清单--企业的所有设备清单，这些设备是自上次更新到 "企业资产总清单 "后，通过手动或自动扫描检测到的 :code:`GV1`. 
+#. 企业资产详细清单的最后更新日期
 
 Assumptions
 ^^^^^^^^^^^
