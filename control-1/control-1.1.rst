@@ -17,17 +17,17 @@
 ------------
 * None
 
-输入
+輸入項田
 -----------
-#. :code:`GV1`: 详细的企业资产清单--企业当前核准的清单，包括保障措施中列出的所有资产。该清单是人工和工具生成的端点的组合，包括授权、非授权、IP 地址、设备类型等信息以及企业定义的任何其他信息。
-#. 企业资产总清单--企业的所有设备清单，这些设备是自上次更新到 "企业资产总清单 "后，通过手动或自动扫描检测到的 :code:`GV1`. 
+#. :code:`GV1`: 详细的企业资产清单：企业当前核准的清单，包括保障措施中列出的所有资产。该清单是人工和工具生成的端点的组合，包括授权、非授权、IP 地址、设备类型等信息以及企业定义的任何其他信息。
+#. 企业资产总清单：企业的所有设备清单，这些设备是自上次更新到 "企业资产总清单 "后，通过手动或自动扫描检测到的 :code:`GV1`. 
 #. 企业资产详细清单的最后更新日期
 
-Assumptions
+假設條件
 ^^^^^^^^^^^
-#. Devices belonging to the organization, but not connected to the organization’s network, require manual discovery in order to be included in the aggregate inventory.
+#. 屬於本組織但未連接到本組織網絡的設備，需要人工發現才能替換總清單。
 
-Operations
+運作方式
 ----------
 #. Calculate the intersection of :code:`GV1` and Input 2
 	#. Enumerate items in :code:`GV1` that are not in Input 2 (M4) 
